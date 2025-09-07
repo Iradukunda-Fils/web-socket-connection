@@ -4,7 +4,7 @@ import socket
 client_socket: socket.socket = socket.socket()
 
 
-client_socket.connect(("bytemonk", 6060))
+client_socket.connect(("localhost", 6060))
 
 
 

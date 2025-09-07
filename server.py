@@ -4,7 +4,7 @@ import socket
 def main():
     server_socket: socket.socket = socket.socket()
     
-    server_socket.bind(("bytemonk", 6060))
+    server_socket.bind(("localhost", 6060))
     
     server_socket.listen(1)
     print("Server is listening on port 6060...")
